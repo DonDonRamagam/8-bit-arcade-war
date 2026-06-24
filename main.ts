@@ -920,7 +920,6 @@ assets.image`myImage14`,
 assets.image`myImage17`,
 assets.image`myImage20`,
 assets.image`myImage15`,
-assets.image`myImage23`,
 assets.image`myImage24`,
 assets.image`myImage18`,
 assets.image`myImage27`,
@@ -941,13 +940,15 @@ assets.image`myImage57`,
 assets.image`myImage66`,
 assets.image`myImage67`,
 assets.image`myImage73`,
+assets.image`myImage13`,
 assets.image`myImage22`,
 assets.image`bobby`,
 assets.image`myImage75`,
 assets.image`myImage12`,
 assets.image`myImage43`,
 assets.image`myImage8`,
-assets.image`myImage9`
+assets.image`myImage9`,
+assets.image`10`
 ]
 mySprite5 = sprites.create(list[currentvalue], SpriteKind.Cursor)
 mySprite6 = sprites.create(list[currentvalue2], SpriteKind.Cursor)
