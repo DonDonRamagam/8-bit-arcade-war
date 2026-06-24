@@ -441,6 +441,12 @@ function selecttheimage () {
         notmoving = assets.animation`myAnim163`
         movingup = assets.animation`myAnim152`
         movingdown = assets.animation`myAnim152`
+    } else if (currentvalue == 50) {
+        mySprite.sayText("1.0")
+        movingleft = assets.animation`myAnim236`
+        notmoving = assets.animation`myAnim81`
+        movingup = assets.animation`myAnim234`
+        movingdown = assets.animation`myAnim232`
     }
     characterAnimations.loopFrames(
     mySprite,
