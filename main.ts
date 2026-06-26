@@ -448,36 +448,53 @@ function selecttheimage () {
         movingup = assets.animation`myAnim234`
         movingdown = assets.animation`myAnim232`
     }
-    characterAnimations.loopFrames(
-    mySprite,
-    movingleft,
-    100,
-    characterAnimations.rule(Predicate.MovingLeft)
-    )
-    characterAnimations.loopFrames(
-    mySprite,
-    movingleft,
-    100,
-    characterAnimations.rule(Predicate.MovingRight)
-    )
-    characterAnimations.loopFrames(
-    mySprite,
-    notmoving,
-    500,
-    characterAnimations.rule(Predicate.NotMoving)
-    )
-    characterAnimations.loopFrames(
-    mySprite,
-    movingup,
-    500,
-    characterAnimations.rule(Predicate.MovingUp)
-    )
-    characterAnimations.loopFrames(
-    mySprite,
-    movingdown,
-    500,
-    characterAnimations.rule(Predicate.MovingDown)
-    )
+    if (!(currentvalue == 45)) {
+        if (currentvalue == 50) {
+            characterAnimations.loopFrames(
+            mySprite,
+            movingleft,
+            200,
+            characterAnimations.rule(Predicate.MovingLeft)
+            )
+            characterAnimations.loopFrames(
+            mySprite,
+            movingleft,
+            200,
+            characterAnimations.rule(Predicate.MovingRight)
+            )
+        } else {
+            characterAnimations.loopFrames(
+            mySprite,
+            movingleft,
+            100,
+            characterAnimations.rule(Predicate.MovingLeft)
+            )
+            characterAnimations.loopFrames(
+            mySprite,
+            movingleft,
+            100,
+            characterAnimations.rule(Predicate.MovingRight)
+            )
+        }
+        characterAnimations.loopFrames(
+        mySprite,
+        notmoving,
+        500,
+        characterAnimations.rule(Predicate.NotMoving)
+        )
+        characterAnimations.loopFrames(
+        mySprite,
+        movingup,
+        500,
+        characterAnimations.rule(Predicate.MovingUp)
+        )
+        characterAnimations.loopFrames(
+        mySprite,
+        movingdown,
+        500,
+        characterAnimations.rule(Predicate.MovingDown)
+        )
+    }
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     selecttheimage()
