@@ -953,25 +953,6 @@ e e . . . . . . . . . . . . e e
 e e . . . . . . . . . . . . e e 
 e e . . . . . . . . . . . . e e 
 `;
-            case "image111":
-            case "myImage74":return img`
-. f . f . f . f . f . f . f . f 
-f . . f f . . . . . . . . . . . 
-. . . f 1 f . . . . . . . . . f 
-f . . f 1 1 f . . . . . . . . . 
-. . . f 1 1 1 f . . . . . . . f 
-f . . f 1 1 1 1 f . . . . . . . 
-. . . f 1 1 1 1 1 f . . . . . f 
-f . . f 1 1 1 1 1 1 f . . . . . 
-. . . f 1 1 1 1 1 1 1 f . . . f 
-f . . f 1 f 1 1 1 1 1 1 f . . . 
-. . . f f . f 1 1 f f f f . . f 
-f . . . . . f 1 1 f . . . . . . 
-. . . . . . f 1 1 f . . . . . f 
-f . . . . . . f 1 1 f . . . . . 
-. . . . . . . f 1 1 f . . . . f 
-f . f . f . f . f f f . f . f . 
-`;
             case "image113":
             case "myImage76":return img`
 . . . . . . . . . . . . . . . . 
